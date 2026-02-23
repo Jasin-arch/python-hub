@@ -45,16 +45,30 @@ output = root
 output = type(root)
 
 # text: STRING -> str()
-name = "John Doe"
+# name = "John Doe"
+# name = "Fredrick Jasin"
+# welcomeMessage = 'It\'s a sunny morning'
+# welcomeMessage = "It's a sunny morning"
+
+
+# output = welcomeMessage
+# output = type(welcomeMessage)
+numberTwo = 10
+output = (numberTwo)  
+
+
+
+# string is a list of characters
 name = "Fredrick Jasin"
-welcomeMessage = 'It\'s a sunny morning'
-welcomeMessage = "It's a sunny morning"
+output = name  #accessing charaters single
 
+# slicing
+# output = name[2:7]
+# output = name[2:4:7]
 
-output = welcomeMessage
-output = type(welcomeMessage)
-
-
+output = name
+output = name.upper()
+output = name.replace( "F", "M")
 
 
 
@@ -67,7 +81,6 @@ print("====================")
 print(output)
 print("====="
 "===============")
-
 
 
 
